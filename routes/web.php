@@ -17,7 +17,7 @@ Route::get("/", function () {
     $a = "jean"; //variable tipo string
     $colores= array("rojo","azul"); //arreglo
     $verduras = array("verdura1"=>"cebolla","verdura2"=>"tomate"); //arreglo con propiedad
-    $frutas = (object)["fruta1"=>"pera","fruta2"=>"manzana"]; //variable tipo objeto
+    $frutas = (object)["fruta1"=>"platano","fruta2"=>"sandia"]; //variable tipo objeto
     echo "Hola $a","<br>" ,"como vas?"; //<br> = salto de linea
     echo "<br> los colores son: $colores[0] " ,"y $colores[1]";
     echo "<br> las verduras son: $verduras[verdura1] " ,"y $verduras[verdura2]";
